@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url("bird.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    transition: height 1s ease;
+}
+
+.navtop{
+    display: flex;
+}
+
+.navBrand{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #aa1f1f;
+    text-shadow: 0 0 10px #fff,0 0 50px #fff,0 0 10px #0800ff,0 0 30px #0800ff,0 0 50px#0800ff;
+}
+
+.navlink ,.navtoggler{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 1rem 0 0;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 10px #fff,
+                0px 0px 20px #fff,
+                0px 0px 20px #fff,
+                0px 0px 40px #00fffc,
+                0px 0px 80px #00fffc;
+}
+
+.navlink:hover{
+    background: #fff;
+    color: #00fffc;
+    font-weight: bold;
+}
+
+.navtoggler{
+    display: none;
+    
+}
+
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+@media screen and (max-width :1000px){
+    nav{
+        display: block;
+        }
+    .navBrand{
+        font-size: 2rem;
+    }
+
+    ul{
+        display: block;
+        margin-top: 2rem;
+        overflow: hidden;
+        height: 0px;
+
+    }
+
+    .navlink{
+        display: block;
+        text-align: center;
+        margin: 0.5rem 2rem;
+    }
+
+    .navtoggler{
+        display: inherit;
+        float: right;
+        margin: 0rem 2rem 0 0;
+    }
+}
+
+.parama{
+    margin: 0px;
+}
+
+.ram{
+    color: #fff;
+    padding-top: 100px;
+    
+}
+.HOME{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 200px;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 10px #fff,
+                0px 0px 20px #fff,
+                0px 0px 20px #fff,
+                0px 0px 40px #00fffc,
+                0px 0px 80px #00fffc;
+}
+.HOME:hover{
+    background: #fff;
+    color: #00fffc;
+    font-weight: bold;
+}
+.middle{
+    color: #f8f8fa;
+    margin-left:150px;
+}
+.navBottom{
+    
+}
